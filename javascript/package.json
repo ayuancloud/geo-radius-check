@@ -1,0 +1,29 @@
+{
+  "name": "geo-radius-check",
+  "version": "1.0.0",
+  "description": "北纬 30° 附近短距离经纬度半径判定：d ≈ sqrt((ΔL·96486.25)² + (ΔB·110852.42)²)，支持免开方判定是否在 5/10/20 m 半径内",
+  "type": "module",
+  "main": "geoRadius.js",
+  "exports": {
+    ".": "./geoRadius.js"
+  },
+  "files": [
+    "geoRadius.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "geolocation",
+    "distance",
+    "radius",
+    "geofence",
+    "coordinate",
+    "经纬度",
+    "半径判定"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
